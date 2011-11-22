@@ -19,3 +19,7 @@ is constructed.
 
 Most of the early workings of Pesi will be incorporated in Apex-Pipeline
 and deprecates Pesi.
+
+Note: Can we get the TCP MTU and Window Size from the connection? If so,
+we could specifically craft responses to fit within those boundaries, 
+further speeding things up. Thank you to Per Buer for this inspiration.
