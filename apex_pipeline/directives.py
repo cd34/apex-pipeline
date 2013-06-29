@@ -34,3 +34,6 @@ def add_block(config, block, name=None, identified_by=None, weight=0):
     config.action(('pipeline_block', block, identified_by), register)
 
     return block    
+
+def add_page(config, page, **kw):    
+    return page    
